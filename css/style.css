@@ -69,7 +69,7 @@ h3 {
 }
 .menu {
    position: fixed;
-   left: 30px;
+   left: 0px;
    top: calc(50% - 31px);
    background: #DDA0DD;
 }
@@ -89,4 +89,7 @@ h3 {
 .menu_lk {
    text-decoration: none;
    color: black;
+   display: block;
+   padding: 10px;
+   text-align: center;
 }
